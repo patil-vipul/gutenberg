@@ -159,6 +159,57 @@
 
 	}
 
+	&.overflow-visible {
+		overflow: visible;
+	}
+	&.overflow-hidden {
+		overflow: hidden;
+	}
+	&.overflow-clip {
+		overflow: clip;
+		position: relative;
+	}
+	&.overflow-scroll {
+		overflow: scroll;
+	}
+	&.overflow-auto {
+		overflow: auto;
+	}
+
+	&.overflow-x-visible {
+		overflow-x: visible;
+	}
+	&.overflow-x-hidden {
+		overflow-x: hidden;
+	}
+	&.overflow-x-clip {
+		overflow-x: clip;
+		position: relative;
+	}
+	&.overflow-x-scroll {
+		overflow-x: scroll;
+	}
+	&.overflow-x-auto {
+		overflow-x: auto;
+	}
+
+	&.overflow-y-visible {
+		overflow-y: visible;
+	}
+	&.overflow-y-hidden {
+		overflow-y: hidden;
+	}
+	&.overflow-y-clip {
+		overflow-y: clip;
+		position: relative;
+	}
+	&.overflow-y-scroll {
+		overflow-y: scroll;
+	}
+	&.overflow-y-auto {
+		overflow-y: auto;
+	}
+
 	// Extra specificity for in edit mode where other styles would override it otherwise.
 	.wp-block-cover__image-background,
 	video.wp-block-cover__video-background {
