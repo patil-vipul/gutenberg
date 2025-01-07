@@ -81,6 +81,18 @@
 		},
 		"sizeSlug": {
 			"type": "string"
+		},
+		"overflow": {
+			"type": "string",
+			"enum": [ "visible", "hidden", "clip", "scroll", "auto" ]
+		},
+		"overflowX": {
+			"type": "string",
+			"enum": [ "visible", "hidden", "clip", "scroll", "auto" ]
+		},
+		"overflowY": {
+			"type": "string",
+			"enum": [ "visible", "hidden", "clip", "scroll", "auto" ]
 		}
 	},
 	"usesContext": [ "postId", "postType" ],
